@@ -1,0 +1,220 @@
+.section01 {
+    background-image: url("../images/image01.jpeg");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.section02 {
+    background-image: url("../images/image02.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.section03 {
+    background-image: url("../images/image03.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.section04 {
+    background-image: url("../images/image04.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#fullpage .section01 h1 {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section01 h1.active {
+    animation-name: active01;
+    animation-duration: 1.5s;
+}
+
+@keyframes active01 {
+    0% {
+        opacity: 0;
+        top: 60%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 40%;
+    }
+}
+
+#fullpage .section02 h1:first-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 30%;
+    right: 33.5%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section02 h1:first-child.active {
+    animation-name: active02;
+    animation-duration: 1.5s;
+}
+
+@keyframes active02 {
+    0% {
+        opacity: 0;
+        top: 50%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 30%;
+    }
+}
+
+#fullpage .section02 h1:last-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section02 h1:last-child.active {
+    animation-name: active03;
+    animation-duration: 1.5s;
+}
+
+@keyframes active03 {
+    0% {
+        opacity: 0;
+        top: 60%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 40%;
+    }
+}
+
+#fullpage .section03 h1:first-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section03 h1:first-child.active {
+    animation-name: active04;
+    animation-duration: 1.5s;
+}
+
+@keyframes active04 {
+    0% {
+        opacity: 0;
+        top: 55%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 35%;
+    }
+}
+
+#fullpage .section03 h1:last-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 45%;
+    right: 44%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section03 h1:last-child.active {
+    animation-name: active05;
+    animation-duration: 1.5s;
+}
+
+@keyframes active05 {
+    0% {
+        opacity: 0;
+        top: 65%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 45%;
+    }
+}
+
+#fullpage .section04 h1:first-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section04 h1:first-child.active {
+    animation-name: active06;
+    animation-duration: 1.5s;
+}
+
+@keyframes active06 {
+    0% {
+        opacity: 0;
+        top: 55%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 35%;
+    }
+}
+
+#fullpage .section04 h1:last-child {
+    color: white;
+    font-size: 56px;
+    position: absolute;
+    top: 45%;
+    right: 56.7%;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+#fullpage .section04 h1:last-child.active {
+    animation-name: active07;
+    animation-duration: 1.5s;
+}
+
+@keyframes active07 {
+    0% {
+        opacity: 0;
+        top: 65%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 45%;
+    }
+}
+
+.fp-viewing-0 ul a span {
+    color: white;
+}
+
+#fp-nav ul li a span {
+    background-color: white;
+}
