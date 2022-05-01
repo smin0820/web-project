@@ -1,0 +1,104 @@
+.reserve_body {
+    height: auto;
+    background-image: url("../images/image07.jpg");
+    background-size: cover;
+}
+
+#fullpage .section .slide1 h1 {
+    color: gray;
+    opacity: 0.8;
+    font-family: 'Roboto Slab', serif;
+    font-size: 66px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+#fullpage .section .slide1 .slide1_h3_1 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 32%;
+}
+
+#fullpage .section .slide1 .slide1_h3_2 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+
+#fullpage .section .slide1 .slide1_h3_3 {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 44%;
+}
+
+#fullpage .section .slide1 .slide1_h3_4 {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 54%;
+}
+
+
+#fullpage .section .slide1 .slide1_h3_5 {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 58%;
+}
+
+#fullpage .section .slide2 h1 {
+    color: grey;
+    opacity: 0.8;
+    font-family: 'Roboto Slab', serif;
+    font-size: 66px;
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+}
+
+#fullpage .section .slide2 .slide2_h3_1 {
+    color: white;
+    position: relative;
+    left: 15%;
+    bottom: 10%;
+}
+
+#fullpage .section .slide2 h3 {
+    color: white;
+    position: relative;
+    left: 15%;
+    bottom: 10%;
+}
+
+#fullpage .section .slide2 .slide2_h3_li {
+    color: white;
+    position: relative;
+    left: 20%;
+    bottom: 16%;
+}
+
+#fullpage .section .slide3 h1 {
+    color: grey;
+    opacity: 0.8;
+    font-family: 'Roboto Slab', serif;
+    font-size: 66px;
+    position: relative;
+    left: 15%;
+    bottom: 18%;
+}
+
+
+#fullpage .section .slide3 h3 {
+    color: white;
+    position: relative;
+    left: 15%;
+    bottom: 23%;
+}
