@@ -1,0 +1,21 @@
+.footer-wrap .footer {
+    height: 130px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    padding: 30px;
+}
+
+.footer-wrap .footer div span {
+    color: white;
+}
+
+.footer-wrap .footer_div2 {
+    margin-left: 250px;
+}
+
+.fix_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+}
