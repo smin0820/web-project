@@ -1,0 +1,17 @@
+/*글꼴 CSS추가*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&family=Pacifico&family=Roboto+Slab:wght@900&display=swap');
+
+/*components*/
+@import "components/header-menu.css";
+@import "components/jquery.fullPage.css";
+@import "components/footer.css";
+/*screens*/
+@import "screens/main.css";
+@import "screens/service.css";
+@import "screens/cost.css";
+@import "screens/reserve.css";
+
+body {
+    margin: 0px;
+    height: 1000vh;
+}
